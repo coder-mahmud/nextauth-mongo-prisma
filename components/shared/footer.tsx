@@ -69,7 +69,7 @@ const Footer = () => {
 
 
 
-    <footer className="bg-primary text-white pt-16 pb-8">
+    <footer className="bg-primary pt-16 pb-8">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
 
 
@@ -77,10 +77,10 @@ const Footer = () => {
 
 
         {/* Copyright */}
-        <div  className="pt-8 border-t border-gray-800 text-white">
+        <div  className="pt-8 border-t border-gray-800 ">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className=" text-sm text-center mb-4 md:mb-0 w-full">
-              © {currentYear} <a href="mailto:(mahmud.linked@gmail.com"> Mahmudul Hasan(mahmud.linked@gmail.com)</a>
+              © {currentYear} <a className='' href="mailto:(mahmud.linked@gmail.com"> Mahmudul Hasan(mahmud.linked@gmail.com)</a>
             </p>
 
 
